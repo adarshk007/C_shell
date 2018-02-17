@@ -1,0 +1,58 @@
+Implimented 
+
+ls
+echo
+pwd
+mkdir
+rm
+date
+exit
+pwd
+
+assumption:
+ 
+>never get a file in nos.
+>used strtok to get the parsed value.
+>used execvp to link
+>used unlink to delete
+
+
+ls
+flags:
+ls -a
+ls -A
+
+
+DATE:
+flags:
+date
+date -u
+date -I
+
+mkdir:
+flags:
+mkdir
+mkdir -p "w.txt"
+mkdir -v "v.txt"
+
+rm:
+
+rm "a.txt"
+flags:
+rm -f
+rm -v
+
+Cat:
+flags:
+cat -n
+cat -E
+
+Echo:
+
+echo "hello"
+echo -e "hello\nworld"
+
+
+exit:
+
+exit 
